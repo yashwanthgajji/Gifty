@@ -1,0 +1,128 @@
+#ns{
+	width: 350px;
+	height: 30px;
+
+}
+#dl{
+  position:absolute;
+  z-index:15;
+  top:60px;
+  left:165px;
+  bottom:500px;
+  background-color: red;
+  width:115px;
+  border-radius: 20px;
+border-bottom-right-radius:15px;
+border-bottom-left-radius:15px;
+
+}
+#cart span{
+	padding: 0px 10px;
+	color: orange;
+}	
+#nav{
+	padding:10px 150.2px;
+	
+}
+#slid{
+	width: 100%;
+	left: 0;
+	right: 0;
+	height: 500px;
+}
+.nav > li.dropdown.open {
+  position: static;
+}
+
+.nav > li.dropdown.open .dropdown-menu {
+
+  display: table;
+  border-radius: 0px;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+
+.dropdown-menu > li {
+  display: table-cell;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+#na ul li{
+	list-style-type: none;
+	font-style: italic;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+.dropdown a{
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+#close {
+    display: block;
+    position: absolute;
+    width:30px;
+    height:30px;
+    top: 2px;
+    right: 2px;
+    background: url(http://icons.iconarchive.com/icons/kyo-tux/delikate/512/Close-icon.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#account_home,#toggle{
+background-color:#E6E6FA;
+position:absolute;
+top:80px;
+height:120px;
+width:190px;
+color:black;
+overflow:visible;
+z-index:13;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-radius: 10px;
+}
+#account1{
+background-color:#E6E6FA;
+position:absolute;
+top:80px;
+height:130px;
+width:190px;
+color:black;
+overflow:visible;
+z-index:16;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+border-radius: 10px;
+}
+
+.button{
+    background-color: #36688D;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 1px;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 767px) {
+  #ns{
+	width: 100%;
+	margin-top: 50px;
+
+}
+ .dropdown-menu > li {
+    display: block;
+  }
+}
